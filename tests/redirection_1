@@ -1,0 +1,5 @@
+<./mock_files/filein_short cat
+<./mock_files/filein_large tail
+<./mock_files/filein_short cat >out_test
+cat out_test
+rm out_test

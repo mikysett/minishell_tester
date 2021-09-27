@@ -1,0 +1,9 @@
+cat ./mock_files/filein_large | wc -l
+tail ./mock_files/filein_large | cat | wc -l
+<./mock_files/filein_short cat | <./mock_files/filein_large wc -l
+<./mock_files/filein_short cat >out1 | wc -l >out2
+echo out1
+cat out1
+echo out2
+cat out2
+rm out1 out2

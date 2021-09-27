@@ -1,0 +1,3 @@
+<./mock_files/filein_short <./mock_files/filein_large >out1 >out2 >out3 <./mock_files/filein_medium cat >out4
+cat out1 out2 out3 out4
+rm out1 out2 out3 out4
