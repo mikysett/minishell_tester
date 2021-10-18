@@ -1,3 +1,3 @@
 <./mock_files/filein_short <./mock_files/filein_large >out1 >out2 >out3 <./mock_files/filein_medium cat >out4
-cat -E out1 out2 out3 out4
+cat -e out1 out2 out3 out4
 rm out1 out2 out3 out4

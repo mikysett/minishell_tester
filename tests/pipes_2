@@ -1,5 +1,5 @@
 <./mock_files/filein_medium | cat
 cat ./mock_files/filein_medium | >out1
 cat ./mock_files/filein_medium >out2|>out3
-cat -E out1 out2 out3
+cat -e out1 out2 out3
 rm out1 out2 out3
