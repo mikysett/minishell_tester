@@ -1,4 +1,4 @@
 wc -l ./mock_files/filein_large
 tail ./mock_files/filein_medium
 cat ./mock_files/filein_short
-cat -e ./mock_files/filein_short ./mock_files/filein_medium ./mock_files/filein_large
+cat -e ./mock_files/filein_short ./mock_files/filein_medium ./mock_files/filein_large
