@@ -1,0 +1,2 @@
+tests_programs/segfault_prog
+echo $?

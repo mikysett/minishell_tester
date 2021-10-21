@@ -10,4 +10,8 @@ export GRN="\033[0;32m"
 export prog_pathname="../minishell"
 export tests_path="tests"
 
+gcc tests_programs/infinite_loop.c -o tests_programs/infinite_loop
+gcc tests_programs/prog_name_printer.c -o tests_programs/prog_name_printer
+gcc tests_programs/segfault_prog.c -o tests_programs/segfault_prog
+
 . tester_loop.sh

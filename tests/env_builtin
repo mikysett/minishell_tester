@@ -1,0 +1,13 @@
+env
+echo before was env, it is supposed to be a little different from bash one
+echo
+export aaa
+export | grep aaa
+env | grep aaa
+export bb22b=test
+export | grep bb22b
+env | grep bb22b
+export 123invalid
+export | grep 123invalid
+export 'a'"b"""''c=test
+env | grep abc

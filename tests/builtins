@@ -1,7 +1,12 @@
 pwd
-env
 echo this is an echo of multiple arguments
 echo -n
 echo -n without a newline
 echo
 echo the one before was an empty echo
+cd ../
+pwd
+ls
+cd ../../
+ls
+pwd

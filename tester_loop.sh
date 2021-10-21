@@ -21,7 +21,7 @@ for TEST in $tests_path/*; do
 		>out_bash echo "$expected_out"
 		>out_minishell echo "$test_out"
 		echo -e "$YEL Diff for program output:$WHT"
-		diff -y out_bash out_minishell
+		diff -y -W 200 out_bash out_minishell
 		rm -f out_bash out_minishell
 		((nb_failed+=1))
 	fi;
