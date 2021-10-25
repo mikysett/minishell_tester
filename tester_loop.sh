@@ -15,12 +15,12 @@ for TEST in $tests_path/*; do
 		OK_OUT=0
 	fi;
 	
-	echo -e "\n-----------------------------------------"
+	echo -e "-----------------------------------------"
 	echo -e "$TEST_CLR Test    $i:$WHT $TEST"
 	if [ $OK_OUT == 0 ]; then
 		>out_bash echo "$expected_out"
 		>out_minishell echo "$test_out"
-		echo -e "$YEL Diff for program output:$WHT"
+		echo -e "$YEL Diff for program output (bash | minishell):$WHT"
 		diff -y -W 200 out_bash out_minishell
 		rm -f out_bash out_minishell
 		((nb_failed+=1))
