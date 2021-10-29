@@ -1,7 +1,5 @@
 # Minishell tester - 42Lisbon
 
-Work in progress
-
 - To run the tester `bash minishell_tester.sh`
 - The default pathname for your executable is `../minishell`
 
@@ -17,7 +15,9 @@ Work in progress
 
 ### Limitations
 - This tester doesn't look for memory leaks.
-- Content in files created by redirections (like `echo test >test-file`) are not checked by default. To test it, if you are creating your own tests, add commands at the end to check, them, for example `cat test-file` at the end of the previous test.
+- Content in files created by redirections (like `echo test >test-file`) are not checked by default. To test it, if you are creating your own tests, add commands at the end to check them, for example `cat test-file` at the end of the previous test.
 - Also the tester doesn't check the return state by default. Still some test files end with `echo exit status $?` which prints the last exit status.
 - To resume, the tester is as clever as the individual test files are. The ones provided by default try to catch most of possible scenarios.
-- Please feel free to add your own tests and improve the existing ones. If you do so I'll appreciate very much you'll contact me so I can update the tests on this repo.
+- Some tests are supposed to give slightly different output, use your own judgent in those cases.
+- The test was created for our own personal usage, so play with it and add tests for your own needs, since it doesn't cover every scenario.
+- If you do so I'll appreciate very much you'll contact me so I can update the tests on this repo.

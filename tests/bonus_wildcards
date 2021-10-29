@@ -1,0 +1,20 @@
+echo aaa1 >aaa1 && echo aaa2 >aaa2 && echo aaa3 >aaa3
+echo 1aaa >1aaa && echo 2aaa >2aaa && echo 3aaa >3aaa
+echo bbaabbaa >bbaabbaa && echo bbaabbaacc >bbaabbaacc
+cat aaa*
+rm aaa*
+echo " --> LS COMAND"
+ls
+echo " --> END LS COMAND"
+cat *aaa
+rm *aaa
+echo " --> LS COMAND"
+ls
+echo " --> END LS COMAND"
+rm aaa*
+cat aa*aa
+cat *a*a
+cat *aa*a*
+cat *aa**aa*
+cat *a*a*a*a**
+rm *aa*aa*
